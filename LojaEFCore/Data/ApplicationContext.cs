@@ -17,7 +17,6 @@ namespace LojaEFCore.Data
         }
 
         #region OnModelCreating
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(ApplicationContext).Assembly);
