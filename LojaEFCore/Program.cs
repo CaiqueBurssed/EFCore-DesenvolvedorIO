@@ -11,7 +11,7 @@ namespace LojaEFCore
     {
         static void Main(string[] args)
         {
-            AtualizarDados();
+            RemoverDados();
         }
 
         private static void AtualizarDados()
@@ -25,6 +25,18 @@ namespace LojaEFCore
 
             cliente.Nome = "Cliente Alterado Passo 2";
 
+            db.SaveChanges();
+        }
+
+        private static void RemoverDados()
+        {
+            using var db = new Data.ApplicationContext();
+
+            var cliente = db.Clientes.Find(2);
+
+            //db.Clientes.Remove(cliente);
+            //db.Entry(cliente).State = EntityState.Deleted;
+            db.Remove(cliente);
             db.SaveChanges();
         }
 
