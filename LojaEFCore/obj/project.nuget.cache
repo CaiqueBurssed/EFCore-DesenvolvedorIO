@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4pMnANXew4h6W/oouOJelp2hxWLY6z7TmAjytkLbCNyom4Krqa2zIA+OzizGOMi2SQiNyUcjMR0DnkgmMm5o0Q==",
+  "dgSpecHash": "UdbHRBzJWir9TU7j0t9AKPHD85ifb5xHK/qD+L+3mwMcUw+V3vJJIfDlU46vhOPt4UovbinvfYB5XGDTVjMvbQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\caique.burssed\\Documents\\GitHub\\EFCore-DesenvolvedorIO\\LojaEFCore\\LojaEFCore.csproj",
   "expectedPackageFiles": [
@@ -94,8 +94,7 @@
     "C:\\Users\\caique.burssed\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\caique.burssed\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\caique.burssed\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\caique.burssed\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\caique.burssed\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+    "C:\\Users\\caique.burssed\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }
