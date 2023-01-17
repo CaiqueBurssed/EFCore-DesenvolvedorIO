@@ -2,6 +2,7 @@
 using LojaEFCore.Enums;
 using Microsoft.EntityFrameworkCore;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace LojaEFCore
@@ -10,7 +11,21 @@ namespace LojaEFCore
     {
         static void Main(string[] args)
         {
-            ConsultarDados();
+            AtualizarDados();
+        }
+
+        private static void AtualizarDados()
+        {
+            using var db = new Data.ApplicationContext();
+
+            //var cliente = db.Clientes.FirstOrDefault(p => p.Id == 1);
+            //db.Clientes.Update(cliente);
+            
+            var cliente = db.Clientes.Find(1);
+
+            cliente.Nome = "Cliente Alterado Passo 2";
+
+            db.SaveChanges();
         }
 
         private static void ConsultarDados()
