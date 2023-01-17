@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rD19WxgzVIx4SBBzXEx6UCiCUhwRMS6jgEyFcjEkz4dCRl2eUAtMz9MgjAf9CYJ3WhktL3SFVTKK918BaCspJw==",
+  "dgSpecHash": "4pMnANXew4h6W/oouOJelp2hxWLY6z7TmAjytkLbCNyom4Krqa2zIA+OzizGOMi2SQiNyUcjMR0DnkgmMm5o0Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\caique.burssed\\Documents\\GitHub\\EFCore-DesenvolvedorIO\\LojaEFCore\\LojaEFCore.csproj",
   "expectedPackageFiles": [
@@ -24,7 +24,10 @@
     "C:\\Users\\caique.burssed\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.5\\microsoft.extensions.dependencyinjection.abstractions.3.1.5.nupkg.sha512",
     "C:\\Users\\caique.burssed\\.nuget\\packages\\microsoft.extensions.logging\\3.1.5\\microsoft.extensions.logging.3.1.5.nupkg.sha512",
     "C:\\Users\\caique.burssed\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.5\\microsoft.extensions.logging.abstractions.3.1.5.nupkg.sha512",
+    "C:\\Users\\caique.burssed\\.nuget\\packages\\microsoft.extensions.logging.configuration\\3.1.5\\microsoft.extensions.logging.configuration.3.1.5.nupkg.sha512",
+    "C:\\Users\\caique.burssed\\.nuget\\packages\\microsoft.extensions.logging.console\\3.1.5\\microsoft.extensions.logging.console.3.1.5.nupkg.sha512",
     "C:\\Users\\caique.burssed\\.nuget\\packages\\microsoft.extensions.options\\3.1.5\\microsoft.extensions.options.3.1.5.nupkg.sha512",
+    "C:\\Users\\caique.burssed\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\3.1.5\\microsoft.extensions.options.configurationextensions.3.1.5.nupkg.sha512",
     "C:\\Users\\caique.burssed\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.5\\microsoft.extensions.primitives.3.1.5.nupkg.sha512",
     "C:\\Users\\caique.burssed\\.nuget\\packages\\microsoft.identity.client\\3.0.8\\microsoft.identity.client.3.0.8.nupkg.sha512",
     "C:\\Users\\caique.burssed\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",

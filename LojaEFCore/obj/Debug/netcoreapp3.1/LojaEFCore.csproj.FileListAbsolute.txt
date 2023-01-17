@@ -47,3 +47,6 @@ C:\Users\caique.burssed\Documents\GitHub\EFCore-DesenvolvedorIO\LojaEFCore\obj\D
 C:\Users\caique.burssed\Documents\GitHub\EFCore-DesenvolvedorIO\LojaEFCore\obj\Debug\netcoreapp3.1\LojaEFCore.dll
 C:\Users\caique.burssed\Documents\GitHub\EFCore-DesenvolvedorIO\LojaEFCore\obj\Debug\netcoreapp3.1\LojaEFCore.pdb
 C:\Users\caique.burssed\Documents\GitHub\EFCore-DesenvolvedorIO\LojaEFCore\obj\Debug\netcoreapp3.1\LojaEFCore.genruntimeconfig.cache
+C:\Users\caique.burssed\Documents\GitHub\EFCore-DesenvolvedorIO\LojaEFCore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\caique.burssed\Documents\GitHub\EFCore-DesenvolvedorIO\LojaEFCore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Console.dll
+C:\Users\caique.burssed\Documents\GitHub\EFCore-DesenvolvedorIO\LojaEFCore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.ConfigurationExtensions.dll

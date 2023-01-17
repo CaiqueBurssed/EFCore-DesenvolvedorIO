@@ -10,7 +10,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "3.1.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.5",
-          "Microsoft.EntityFrameworkCore.Tools": "3.1.5"
+          "Microsoft.EntityFrameworkCore.Tools": "3.1.5",
+          "Microsoft.Extensions.Logging.Console": "3.1.5"
         },
         "runtime": {
           "LojaEFCore.dll": {}
@@ -232,6 +233,31 @@
           }
         }
       },
+      "Microsoft.Extensions.Logging.Configuration/3.1.5": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "3.1.5",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "3.1.5"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Logging.Configuration.dll": {
+            "assemblyVersion": "3.1.5.0",
+            "fileVersion": "3.100.520.27009"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Console/3.1.5": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "3.1.5",
+          "Microsoft.Extensions.Logging": "3.1.5",
+          "Microsoft.Extensions.Logging.Configuration": "3.1.5"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Logging.Console.dll": {
+            "assemblyVersion": "3.1.5.0",
+            "fileVersion": "3.100.520.27009"
+          }
+        }
+      },
       "Microsoft.Extensions.Options/3.1.5": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.5",
@@ -239,6 +265,20 @@
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "3.1.5.0",
+            "fileVersion": "3.100.520.27009"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options.ConfigurationExtensions/3.1.5": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "3.1.5",
+          "Microsoft.Extensions.Configuration.Binder": "3.1.5",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.5",
+          "Microsoft.Extensions.Options": "3.1.5"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {
             "assemblyVersion": "3.1.5.0",
             "fileVersion": "3.100.520.27009"
           }
@@ -1015,12 +1055,33 @@
       "path": "microsoft.extensions.logging.abstractions/3.1.5",
       "hashPath": "microsoft.extensions.logging.abstractions.3.1.5.nupkg.sha512"
     },
+    "Microsoft.Extensions.Logging.Configuration/3.1.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-I+9jx/A9cLdkTmynKMa2oR4rYAfe3n2F/wNVvKxwIk2J33paEU13Se08Q5xvQisqfbumaRUNF7BWHr63JzuuRw==",
+      "path": "microsoft.extensions.logging.configuration/3.1.5",
+      "hashPath": "microsoft.extensions.logging.configuration.3.1.5.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Console/3.1.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-c/W7d9sjgyU0/3txj/i6pC+8f25Jbua7zKhHVHidC5hHL4OX8fAxSGPBWYOsRN4tXqpd5VphNmIFUWyT12fMoA==",
+      "path": "microsoft.extensions.logging.console/3.1.5",
+      "hashPath": "microsoft.extensions.logging.console.3.1.5.nupkg.sha512"
+    },
     "Microsoft.Extensions.Options/3.1.5": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-f+JT/7lkKBMp/Ak2tVjO+TD7o+UoCfjnExkZNn0PZIso8kIXrqNy6x42Lrxf4Q0pW3JMf9ExmL2EQlvk2XnFAg==",
       "path": "microsoft.extensions.options/3.1.5",
       "hashPath": "microsoft.extensions.options.3.1.5.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options.ConfigurationExtensions/3.1.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mgM+JHFeRg3zSRjScVADU/mohY8s0czKRTNT9oszWgX1mlw419yqP6ITCXovPopMXiqzRdkZ7AEuErX9K+ROww==",
+      "path": "microsoft.extensions.options.configurationextensions/3.1.5",
+      "hashPath": "microsoft.extensions.options.configurationextensions.3.1.5.nupkg.sha512"
     },
     "Microsoft.Extensions.Primitives/3.1.5": {
       "type": "package",
